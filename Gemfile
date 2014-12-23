@@ -15,6 +15,8 @@ gem 'sidekiq'
 gem 'sinatra', '>= 1.3.0', :require => nil
 
 group :development do
+  gem 'capistrano', '~> 3.1'
+  gem 'capistrano-rbenv', '~> 2.0'
   gem 'capistrano-rails'
 end
 

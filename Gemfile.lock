@@ -235,6 +235,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord-postgres-hstore
   bcrypt (~> 3.1.7)
+  capistrano
   capistrano-rails
   coffee-rails (~> 4.0.0)
   dotenv-rails
