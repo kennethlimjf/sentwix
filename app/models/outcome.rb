@@ -2,6 +2,8 @@ class Outcome < ActiveRecord::Base
   belongs_to :movie
   belongs_to :analysis
 
+  after_create :set_time_dimensions
+
   def set_time_dimensions
     { 
       'day' => '%j',
