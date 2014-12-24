@@ -13,7 +13,7 @@ gem 'whenever', :require => false
 gem 'activerecord-postgres-hstore'
 gem 'sidekiq'
 gem 'sinatra', '>= 1.3.0', :require => nil
-gem 'dotenv-deployment'
+gem 'dotenv-rails'
 
 group :development do
   gem 'capistrano', '~> 3.1'
@@ -29,7 +29,6 @@ end
 
 group :development, :test do
   gem 'pry-rails'
-  gem 'dotenv-rails'
   gem 'rspec-rails', '~> 3.0'
   gem 'factory_girl_rails'
   gem 'faker'
