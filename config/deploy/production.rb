@@ -6,6 +6,7 @@
 
 role :app, %w{deploy@128.199.120.247:3190}
 role :web, %w{deploy@128.199.120.247:3190}
+role :db, %w{deploy@128.199.120.247:3190}
 
 # Custom SSH Options
 # ==================

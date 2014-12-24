@@ -13,6 +13,7 @@ gem 'whenever', :require => false
 gem 'activerecord-postgres-hstore'
 gem 'sidekiq'
 gem 'sinatra', '>= 1.3.0', :require => nil
+gem 'dotenv-deployment'
 
 group :development do
   gem 'capistrano', '~> 3.1'
