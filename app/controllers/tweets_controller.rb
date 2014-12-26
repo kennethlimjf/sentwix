@@ -1,6 +1,6 @@
 class TweetsController < ApplicationController
 
-  def show
+  def index
     movie = Movie.find(params[:movie_id])
     @tweets = movie.tweets
   end

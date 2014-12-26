@@ -1,5 +1,5 @@
 <ul>
-<%= @tweets.each do |t| %>
-  <li>t.object["text"]</li>
+<% @tweets.each do |t| %>
+  <li><%= t.object["text"] %></li>
 <% end %>
 </ul>
