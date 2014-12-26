@@ -9,7 +9,7 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'twitter'
-gem 'whenever', :require => false
+gem 'whenever', require: false
 gem 'activerecord-postgres-hstore'
 gem 'sidekiq'
 gem 'sinatra', '>= 1.3.0', :require => nil

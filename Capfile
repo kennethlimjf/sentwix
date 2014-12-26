@@ -24,4 +24,5 @@ require 'capistrano/rails/migrations'
 # Loads custom tasks from `lib/capistrano/tasks' if you have any defined.
 Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }
 
+set :whenever_command, "bundle exec whenever"
 require 'whenever/capistrano'
